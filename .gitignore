@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+MUJOCO_LOG.TXT
+
+# generated outputs
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.mp4
+*.zip
+
+data/connectomes/*/connections_*.csv
+data/connectomes/*/*.csv.gz
